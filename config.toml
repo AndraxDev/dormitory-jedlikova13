@@ -1,0 +1,4 @@
+baseURL = 'http://j13.sk/'
+languageCode = 'en-us'
+title = 'Jedlikova 13'
+theme = 'jedlikova13'

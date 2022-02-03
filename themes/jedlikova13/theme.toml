@@ -1,0 +1,12 @@
+name = "Jedlikova13"
+license = "MIT"
+licenselink = ""
+description = "This theme created for dormitory site on Jedlikova 13"
+homepage = "http://j13.sk/"
+tags = []
+features = []
+min_version = "0.49.0"
+
+[author]
+  name = "PC Klub"
+  homepage = "https://pcklub.sk/"
