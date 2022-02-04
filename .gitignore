@@ -1,3 +1,4 @@
 .ignored/
 static_repo/
 .idea/
+*.gitignore
