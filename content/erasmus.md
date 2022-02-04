@@ -1,3 +1,6 @@
+---
+title: Information for ersmus
+---
 # Lorem ipsum dolor sit amet.
 
 {{< raw >}}

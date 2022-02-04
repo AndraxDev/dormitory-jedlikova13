@@ -1,3 +1,6 @@
+---
+title: Payments
+---
 # Lorem ipsum dolor sit amet.
 
 {{< raw >}}

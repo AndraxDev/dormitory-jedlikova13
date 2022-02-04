@@ -1,3 +1,6 @@
+---
+title: Home
+---
 # Lorem ipsum dolor sit amet.
 
 {{< raw >}}

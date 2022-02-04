@@ -6,15 +6,12 @@ A repo for site of dormitory on Jedlikova 13
 
 1. Put md files to /content directory,
 
-2. Use the following template to convert html. (WARNONG: DO NOT REMOVE OR CHANGE FORST LINE!!!).
+2. Use the following template to convert html.
 
 ```
-# Lorem ipsum dolor sit amet.
+# Lorem ipsum dolor sit amet. // DO NOT REMOVE OR MODIFY THIS LINE
 
 {{< raw >}}
-<div class="content">
-	<div class="container">
-	</div>
-</div>
+<!-- HTML CODE HERE -->
 {{< /raw >}}
 ```
