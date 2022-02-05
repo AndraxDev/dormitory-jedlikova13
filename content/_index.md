@@ -32,12 +32,14 @@ title: Home
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.453192764254!2d21.228868815668672!3d48.69681827927203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ee01e9e56e547%3A0xbf2c126bccea22b0!2zSmVkbMOta292YSAxMDg3LzEzLCAwNDAgMTEgS2_FoWljZSwg0KHQu9C-0LLQsNC60LjRjw!5e0!3m2!1sru!2sua!4v1632152329301!5m2!1sru!2sua"></iframe>
 						</div>
 						<div class="contact__body">
-							<p><span>Address:</span><br>
-								Jedlikova 13<br></p>
-							<p><span>Number:</span><br>
-								+9656 5454545 454545 <br></p>
-							<p><span>Mail:</span><br>
-								mail@mail.ru <br></p>
+							<p><span>Address:</span><br>Jedlikova 13<br></p>
+							<span>Accommodation department:</span><br>
+							<p><span>Mrs.</span><br>Slávka Fedorová<br></p>
+							<p><span>Number:</span><br>+421 55 602 5861<br></p>
+							<p><span>Mail:</span><br>slavka.fedorova@tuke.sk<br></p>
+							<span>Gatehouse:</span><br>
+							<p><span>Mobile:</span><br>0917 911 619<br></p>
+							<p><span>Tel:</span><br>055/602 58 62<br></p>
 						</div>
 					</div>
 				</div>
