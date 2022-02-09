@@ -1,7 +1,12 @@
-{{ define "main" }}
+---
+title: Jedlikova 13
+---
+# Lorem ipsum dolor sit amet.
+
+{{< raw >}}
 <div class="content">
 			<div class="container">
-				<!--<div class="content__container">
+				<div class="content__container">
 					<div class="news__header">
 						<div class="news__heading">Lorem ipsum dolor sit amet.</div>
 						<div class="news__date">8/12/1230</div>
@@ -37,10 +42,8 @@
 							<p><span>Tel: </span><br>055/602 58 62<br></p>
 						</div>
 					</div>
-				</div>-->
-			<p>Please enable JavaScript to use this site</p>
-			<!--<script>window.location.replace("/en/home/");</p>-->
+				</div>
+			</div>
 		</div>
-	</div>
-{{- partial "r.html" . -}}
-{{ end }}
+<script src = "/JS/sk.js"></script>
+{{< /raw >}}

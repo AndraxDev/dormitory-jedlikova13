@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="675400cd-570d-4070-909d-8359b34fd3d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/contact.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/council.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/erasmus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/event.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/news.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/payments.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/pcklub.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/police.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/registration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/rules.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../themes/jedlikova13/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../themes/jedlikova13/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../themes/jedlikova13/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../themes/jedlikova13/layouts/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../themes/jedlikova13/partials/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../themes/jedlikova13/partials/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../themes/jedlikova13/partials/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../themes/jedlikova13/partials/metadata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../themes/jedlikova13/partials/script.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +60,8 @@
       <updated>1643832264990</updated>
       <workItem from="1643832266599" duration="3832000" />
       <workItem from="1643880112565" duration="1380000" />
+      <workItem from="1644399111750" duration="28000" />
+      <workItem from="1644399575342" duration="1556000" />
     </task>
     <servers />
   </component>

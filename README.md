@@ -15,3 +15,11 @@ A repo for site of dormitory on Jedlikova 13
 <!-- HTML CODE HERE -->
 {{< /raw >}}
 ```
+
+### Its also necessary to put <script> to the end of each file:
+
+```html
+<!-- HTML here -->
+
+<script src = "/JS/<LANGUAGE>.js"></script> <!-- Without it menus will be inactive -->
+```
