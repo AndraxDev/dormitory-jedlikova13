@@ -109,7 +109,7 @@ title: PCKlub
 								<div class="card__back">
 									<p class = "xcard" style = "color: white"><span>Dmytro Ostapenko</span></p>
 									<p class = "xcard" style = "color: white">Webmaster, sysadmin</p>
-									<p class = "xcard" style = "color: white"><a href = "https://github.com/xXDima212DimaXx"><img src="/d/tesla.png" style = "width: 180px; height: auto;"></a></p>
+									<p class = "xcard" style = "color: white"><a href = "https://github.com/xXDima212DimaXx"><img src="https://teslasoft.org/tesla.png" style = "width: 180px; height: auto;"></a></p>
 								</div>
 							</div>
 						</div>
