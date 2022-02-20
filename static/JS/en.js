@@ -82,6 +82,11 @@ function openNews() {
 function openErasmus() {
     window.location.assign("/en/erasmus/");
 }
+
+var path = window.location.pathname;
+var page = path.slice(3);
+console.log( page );
+
 function switchLanguage() {
-    window.location.assign("/sk/home/");
+    window.location.assign("/sk" + page);
 }
