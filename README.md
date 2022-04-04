@@ -23,3 +23,9 @@ A repo for site of dormitory on Jedlikova 13
 
 <script src = "/JS/<LANGUAGE>.js"></script> <!-- Without this code menus will be inactive -->
 ```
+
+### Start server with command:
+
+```shell
+hugo server --bind SERVER_IP --baseURL http://YOUR_DOMAIN --port 80
+```
