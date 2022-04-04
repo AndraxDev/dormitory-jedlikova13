@@ -21,5 +21,5 @@ A repo for site of dormitory on Jedlikova 13
 ```html
 <!-- HTML here -->
 
-<script src = "/JS/<LANGUAGE>.js"></script> <!-- Without it menus will be inactive -->
+<script src = "/JS/<LANGUAGE>.js"></script> <!-- Without this code menus will be inactive -->
 ```
