@@ -29,3 +29,9 @@ A repo for site of dormitory on Jedlikova 13
 ```shell
 hugo server --bind SERVER_IP --baseURL http://YOUR_DOMAIN --port 80
 ```
+
+### If necessary disable firewall:
+
+```shell
+sudo ufw allow 80
+```
