@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/theme.css">
+    <link rel="icon" href="/images/home__web__page/logo.png">
+    
+    
+    <title>Jedlikova 13 | Ens</title>
+</head><body><div class="wrapper">
+	<div class="menu__header">
+		<div class="menu__icon" onclick = "javascript:toggleMobile()">
+			<span></span>
+		</div>
+	</div>
+	<header class="header">
+	<nav class="nav">
+            <ul class="nav__wrapper">
+                <li class="logo__container">
+                    <img class="logo__image" src="/images/home__web__page/logo.png" alt="">
+                    <p class="logo__text"><a class="logo__text nav__element" href="#" onclick="openHome()">Jedlikova 13</a></p>
+                </li>
+                
+                <li><a class="nav__element nav__click" onclick="clubsFunction()" href="#" id = "title_clubs">student clubs<img class="dropdown__image" id="clubs__image" src="/images/home__web__page/dropdown__image.png" alt=""></a>
+                    <ul id="clubs__dropdown" class="dropdown">
+                        <li><a class="nav__element nav__click" onclick="councilFunction()" href="#" id = "title_council">student council<img class="dropdown__image" id="council__image" src="/images/home__web__page/dropdown__right.png" alt=""></a>
+                            <ul id="council__dropdown" class="sub-dropdown">
+                                <li><a class="nav__element" href="#" onclick="openCouncil()" id = "title_council_info">info</a></li>
+                                <li><a class="nav__element" href="#" onclick="openEvents()" id = "title_council_event">event</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav__element nav__click" onclick="klubFunction()" href="#" id = "title_pcklub">pc klub<img id="klub__image" class="dropdown__image" src="/images/home__web__page/dropdown__right.png" alt=""></a>
+                            <ul id="klub__dropdown" class="sub-dropdown">
+                                <li><a class="nav__element" href="#" onclick="openPC()" id = "title_pcklub_info">info</a></li>
+                                <li><a class="nav__element" href="#" onclick="openRules()" id = "title_rules">operating rules of the network</a></li>
+                                <li><a class="nav__element" href="#" onclick="openRegistration()" id = "title_registration">registration for local network</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="nav__element" onclick="openPolice()" id = "title_police">student police</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav__element nav__click" onclick="infoFunction()" href="#" id = "title_info">info<img id="info__image" class="dropdown__image" src="/images/home__web__page/dropdown__image.png" alt=""></a>
+                    <ul id="info__dropdown" class="dropdown">
+                        <li><a class="nav__element" href="#" onclick="openAbout()" id = "title_about">about hostel</a></li>
+                        <li><a class="nav__element" href="#" onclick="openPayments()" id = "title_payments">payments</a></li>
+                        <li><a class="nav__element" href="#" onclick="openContacts()" id = "title_contacts">contacts</a></li>
+                        <li><a class="nav__element" href="#" onclick="openFAQ()" id = "title_faq">faq</a></li>
+                        <li><a class="nav__element" href="#" onclick="openNews()" id = "title_news">news</a></li>
+                    </ul>
+                </li>
+
+                </il>
+                <li><a class="nav__element" href="https://rezervacie.intrak.sk/frontend/" id = "title_reservations">reservation</a></li>
+                <li>
+                </li>
+                <li><a class="nav__element" href="#" onclick="openErasmus()">erasmus</a></li>
+                <a class="nav__element" href="#" onclick="switchLanguage()"><img src="" alt="" id = "flag"></a>
+            </ul>
+        </nav>
+</header><div class="content">
+		<div class="container">
+<h1>Ens</h1>
+
+<p>
+    <h3><a class="title" href="/en/template/">Title</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/template/">
+        <p>Lorem ipsum dolor sit amet. </p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/police/">Student police</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/police/">
+        <p>Lorem ipsum dolor sit amet. student policeLorem ipsum dolor sit.Študentská polícia Jedlíkova 13 je jeden z klubov Študentskej rady J13. Na internátemá za úlohu dohliadať na dodržiavanie ubytovacieho poriadku v priestoroch študentskéhodomova J13 a na akciách organizovaných ŠRJ13. Klub spolupracuje tiež s vedením ŠDJ13 apomáha riešiť problémy spojené s porušovaním interných predpisov a disciplíny vpriestoroch domova.Študentská polícia ma za úlohu počas služby pravidelne prechádzaťpriestory ŠDJ13, byť v pohotovosti pre potrebu vrátnice a má právo požiadať o kontroluubytovacieho preukazu alebo ISIC-u.</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/council/">Student council</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/council/">
+        <p>Lorem ipsum dolor sit amet. student councilLorem ipsum dolor sit.Študentská rada Jedlíkova 13 (ŠRJ13) patrí medzi najmenšie študentské organizácieTUKE v Košiciach. Zastupuje študentov pred vedením TUKE a podporuje ich športové,kultúrne a iné záujmy. Každoročne ŠRJ13 organizuje akcie pre študentov, ako napríkladjarné upratovanie, športový večer, diskotéky. ŠRJ13 spolupracuje aj s ďalšími študentskýmiorganizáciami pri vytváraní kultúrnych akcií, a to hlavne so Študentskou radou Jedlíkova9 a Študentskou radou Jedlíkova 5.</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/registration/">Registration for the local network</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/registration/">
+        <p>Lorem ipsum dolor sit amet. </p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/pcklub/">PCKlub</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/pcklub/">
+        <p>Lorem ipsum dolor sit amet. PC KLUBPCKlub, currently largest club of Student councils, was established in 1997 in dormitory Jedlíkova 9 and provides connection to computer network to students, employees and otherhoused people in TUKE dormitories.They also provide connection to external organizations, schools and catering establishmentsin close cooperation with the university and academic network SANET. PCKlub consists of 6 clubs indormitories Boženy Němcovej, Ferka Urbanka, Rampová, Jedlíkova 5, Jedlíkova 9 and Jedlíkova 13,which communicate together and help each other with problem solving.</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/payments/">Payments</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/payments/">
+        <p>Lorem ipsum dolor sit amet. paymentsRequired information to pre-payment from 01.02.2014Account number / bank code:
+7000084912 / 8180 Bank name:
+Štátna pokladnica  IBAN: SK9781800000007000084912 BIC-SWIFT code: SPSRSKBAXXX Beneficiary name: TUKE Amount:
+Payment for 3 months
+Variable symbol:
+201…number from MAIS  Constant symbol: 308 Specific symbol: 1516 Information for beneficiary: Name of the student Paymant for internet, laundry and gymAccount number / bank code:</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/rules/">Operating rules of the network</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/rules/">
+        <p>Lorem ipsum dolor sit amet. OPERATING RULES OF THE NETWORKBy signing the Agreement of using the Network the User agrees to being familiar with this document (Operating Rules of PCKlub network) and operating rules of network SANET. The User also agrees to respect these documents.  For purposes of this document, the following terms and definitions apply:  The Network: computer network in dormitories Jedlíkova 5, 9, 13, Boženy Nemcovej, Ferka Urbánka, Rampová, Budovateľská 13 and 31 including its technical and software resources (moving and fixed cabling, sockets, switches, access points…) A server: computer running in the Network providing its resources to users and is managed by PCKlub User: User of the Network is everyone entitled to use its resources (via cable connection, Wi-Fi or user account on the Alf server)   The User is fully responsible for every action of his computer on the Network, his account on the Alf server and all material lent by PCKlub.</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/news/">News</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/news/">
+        <p>Lorem ipsum dolor sit amet. NEWSLorem ipsum dolor sit amet consectetur adipisicing elit.Excepturi, inventore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veritatis id accusantiumdeleniti excepturi voluptatibus facilis enim rerum harum assumenda deserunt aliquid dolorem itaqueest aspernatur eaque saepe, veniam explicabo, minima eos. Harum, ad similique. Explicabo, mollitianihil magni quo aliquid qui, dolor excepturi, quae commodi repudiandae dignissimos repellataccusantium!click to see allLorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/home/">Jedlikova 13</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/home/">
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.8/12/1230Первый контейнерВторой контейнерТретий контейнерЧетвёртый контейнер Открывает первый контейнерОткрывает второй контейнерОткрывает третий контейнерОткрывает четвёртый контейнерContactAddress: 
+Jedlikova 13
+Accommodation department:
+Mrs. 
+Slávka Fedorová
+Number: 
++421 55 602 5861
+Mail: 
+slavka.fedorova@tuke.sk
+Gatehouse: 
+Mobile: 
+0917 911 619
+Tel: 
+055/602 58 62</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/erasmus/">Information for ersmus</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/erasmus/">
+        <p>Lorem ipsum dolor sit amet. ErasmusYou need to follow these instructions to register if you missed the mass registration duringfirst week of the semester: Register/login to https://userpanel.pcklub.sk. If you need help withregistration,there’s a how to on the big bulletin board in dormitory hall near the entrance.how to on the big bulletin board in dormitory hall near the entrance.Update/check your personal information.After changes generate an application for civil association (in the “Documents” section)Pay the 27 EUR membership fee via bank transfer.</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/faq/">FAQ</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/faq/">
+        <p>Lorem ipsum dolor sit amet. NEWSLorem ipsum dolor sit amet consectetur adipisicing elit.Excepturi, inventore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veritatis id accusantiumdeleniti excepturi voluptatibus facilis enim rerum harum assumenda deserunt aliquid dolorem itaqueest aspernatur eaque saepe, veniam explicabo, minima eos. Harum, ad similique. Explicabo, mollitianihil magni quo aliquid qui, dolor excepturi, quae commodi repudiandae dignissimos repellataccusantium!Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/event/">Council events</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/event/">
+        <p>Lorem ipsum dolor sit amet. Event</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/contact/">Contacts</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/contact/">
+        <p>Lorem ipsum dolor sit amet. contacts Address:
+ŠDaJ TU Jedlíkova 13 Jedlíkova 13 040 11 Košice  Gatehouse: Mobil: 0917 911 619 Tel: 055/602 58 62 Accommodation department: Mrs. Slávka Fedorová Tel.: +421 55 602 5861 Email: slavka.fedorova@tuke.sk Office hours of accommodation department Jedlikova 5:Monday: 8:00 – 11:30 12:30 – 14:00
+Tuesday: 8:00 – 11:30 12:30 – 14:00
+Wednesday: 8:00 – 11:30 12:30 – 14:00</p>
+    </a>
+</p>
+
+<p>
+    <h3><a class="title" href="/en/about/">About hostel</a></h3>
+    
+
+<i data-feather="calendar" class = "hidden"></i>
+<time  class = "hidden" datetime="0001-01-01">Jan 1, 0001</time>
+
+    <a class="summary" href="/en/about/">
+        <p>Lorem ipsum dolor sit amet. About hostelŠtudentský domov patrí v lokalite Jedlíkovej ulici medzi najmenšie domovy Technickej univerzity. Okolie domova je plné zelene, kde študenti a hostia môžu posedieť v altánku a relaxovať. V blízkosti je autobusová zástavka, čo zabezpečuje dobrú dostupnosť do centra mesta. Neďaleko sa nachádza aj obchodné centrum Optima.Ubytovanie poskytujeme v dvoch 5 – poschodových blokoch, ktoré sú prepojenépriestranným vestibulom. Na každom poschodí sa nachádza zrekonštruovaná kuchynka vybavenádvojplatničkou a mikrovlnou rúrou.</p>
+    </a>
+</p>
+
+
+        	</div>
+	</div><footer class = "footer"><div class="footer__content">© 2022 PC Klub. All rights reserved.</div></footer></div><script src="/JS/menus.js"></script></body>
+</html>

@@ -417,7 +417,7 @@ body._lock {
 
 .flip__card img {
   height: 100%;
-  width: 100%;
+  max-width: 200px;
 }
 
 .flip__card:nth-child(1) {

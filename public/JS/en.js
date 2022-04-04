@@ -17,7 +17,6 @@ let title_contacts = document.getElementById("title_contacts");
 let title_faq = document.getElementById("title_faq");
 let title_news = document.getElementById("title_news");
 let title_reservations = document.getElementById("title_reservations");
-let title_cinema = document.getElementById("title_cinema");
 
 title_clubs.innerHTML = "Student clubs<img class=\"dropdown__image\" id=\"clubs__image\" src=\"/images/home__web__page/dropdown__image.png\" alt=\"\">";
 title_council.innerHTML = "Student council<img class=\"dropdown__image\" id=\"council__image\" src=\"/images/home__web__page/dropdown__right.png\" alt=\"\">";
@@ -35,7 +34,7 @@ title_contacts.innerHTML = "Contacts";
 title_faq.innerHTML = "FAQ";
 title_news.innerHTML = "News";
 title_reservations.innerHTML = "Reservations";
-title_cinema.innerHTML = "Cinema";
+
 
 function openHome() {
     window.location.assign("/en/home/");
@@ -82,10 +81,6 @@ function openNews() {
 }
 function openErasmus() {
     window.location.assign("/en/erasmus/");
-}
-
-function openCinema() {
-    window.location.assign("/en/cinema/");
 }
 
 var path = window.location.pathname;
