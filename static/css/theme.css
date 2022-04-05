@@ -141,7 +141,7 @@ body._lock {
   font-size: 20px;
   color: #fff;
   padding: 0 0.7vw;
-  text-transform: uppercase;
+  text-transform: capitalize;
   -webkit-transition: 0.4s linear;
   transition: 0.4s linear;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
