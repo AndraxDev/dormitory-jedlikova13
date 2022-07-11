@@ -11,18 +11,17 @@ title: Jedlikova 13
 						<div class="news__heading">Lorem ipsum dolor sit amet.</div>
 						<div class="news__date">8/12/1230</div>
 					</div>
-					<div id="first" class="news__body">Первый контейнер</div>
-					<div id="second" class="news__body">Второй контейнер</div>
-					<div id="third" class="news__body">Третий контейнер</div>
-					<div id="quad" class="news__body">Четвёртый контейнер</div>
+					<div id="first" class="news__body">First container</div>
+					<div id="second" class="news__body">Second container</div>
+					<div id="third" class="news__body">Third container</div>
+					<div id="quad" class="news__body">Fourth container</div>
 				</div>
 
 				<div class="closed__container">
-					<div id="open_first" onclick="openFirstFunction()" class="closed__news">Открывает первый контейнер</div>
-					<div id="open_second" onclick="openSecondFunction()" class="closed__news">Открывает второй контейнер
-					</div>
-					<div id="open_third" onclick="openThirdFunction()" class="closed__news">Открывает третий контейнер</div>
-					<div id="open_quad" onclick="openQuadFunction()" class="closed__news">Открывает четвёртый контейнер</div>
+					<div id="open_first" onclick="openFirstFunction()" class="closed__news">Open first container</div>
+					<div id="open_second" onclick="openSecondFunction()" class="closed__news">Open second container</div>
+					<div id="open_third" onclick="openThirdFunction()" class="closed__news">Open third container</div>
+					<div id="open_quad" onclick="openQuadFunction()" class="closed__news">Open last container</div>
 				</div>
 
                 <div class = "content__container containers_frame">
@@ -41,7 +40,7 @@ title: Jedlikova 13
                 </div>
 
 				<div class="content__container">
-                    <p>Contact</p>
+                    <p class="content__heading">Contact</p>
 					<!--<div class="contact__heading">Contact</div>-->
 					<div class="contact__wrapper">
 						<div class="contact__body">

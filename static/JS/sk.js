@@ -21,10 +21,10 @@ let title_cinema = document.getElementById("title_cinema");
 
 title_clubs.innerHTML = "Studentske kluby<img class=\"dropdown__image\" id=\"clubs__image\" src=\"/images/home__web__page/dropdown__image.png\" alt=\"\">";
 title_council.innerHTML = "Studentska rada<img class=\"dropdown__image\" id=\"council__image\" src=\"/images/home__web__page/dropdown__right.png\" alt=\"\">";
-title_council_info.innerHTML = "info";
-title_council_event.innerHTML = "events";
+title_council_info.innerHTML = "Info";
+title_council_event.innerHTML = "Events";
 title_pcklub.innerHTML = "PCKlub<img id=\"klub__image\" class=\"dropdown__image\" src=\"/images/home__web__page/dropdown__right.png\" alt=\"\">";
-title_pcklub_info.innerHTML = "info";
+title_pcklub_info.innerHTML = "Info";
 title_rules.innerHTML = "Podmienky pouzitia internatovej siete";
 title_registration.innerHTML = "Registracia v lokalnej siete";
 title_police.innerHTML = "Studentska policia";

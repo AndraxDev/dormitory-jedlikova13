@@ -41,7 +41,7 @@ title: Jedlikova 13
                 </div>
 
 				<div class="content__container">
-					<p>Contact</p>
+					<p class="content__heading">Contact</p>
 					<!--<div class="contact__heading">Contact</div>-->
 					<div class="contact__wrapper">
 						<div class="contact__body">

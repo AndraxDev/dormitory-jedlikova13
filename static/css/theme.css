@@ -103,8 +103,9 @@ h6 {
 /*--------------------*/
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana;
-  font-weight: bold;
+  /* font-weight: bold; */
   background-color: #f1f1f1;
+  line-height: 1.4;
 }
 
 body._lock {
@@ -149,10 +150,10 @@ body._lock {
           align-items: center;
   height: 50px;
   background-color: #000;
-  font-size: 20px;
+  font-size: 1vw;
   color: #fff;
   padding: 0 0.7vw;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   -webkit-transition: 0.4s linear;
   transition: 0.4s linear;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -292,7 +293,7 @@ body._lock {
 
 .content__header {
   position: relative;
-  background: url() no-repeat;
+  background: url("https://media.istockphoto.com/photos/female-student-going-for-class-in-high-school-picture-id1328847023") no-repeat;
   background-size: cover;
   z-index: 2;
   -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
@@ -555,6 +556,23 @@ body._lock {
   display: none;
 }
 
+.contact__time{
+  display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+background-color: #f1f1f1;
+border-radius: 10px;
+padding: 10px;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: center;
+font-weight: 400;
+font-size: 18px;
+}
+
+.time__text{
+
+}
 .news__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -651,7 +669,7 @@ body._lock {
   text-align: center;
 }
 
-.contact__body iframe {
+.row__body-d iframe {
   height: 100%;
   width: 100%;
 }
@@ -720,6 +738,7 @@ body._lock {
   padding: 20px;
   margin: 0 0 20px 0;
   padding: 10px 20px 20px 20px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
 }
 
 .contact__container:last-child {
@@ -757,6 +776,7 @@ body._lock {
   width: 49%;
   font-weight: 400;
   font-size: 18px;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -764,14 +784,14 @@ body._lock {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  /*text-align: center;*/
+  text-align: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background-color: #f1f1f1;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 5px 1px #000;
-  box-shadow: 0 0 5px 1px #000;
+  /* -webkit-box-shadow: 0 0 5px 1px #000; */
+  /* box-shadow: 0 0 5px 1px #000; */
   padding: 10px;
 }
 
@@ -1253,7 +1273,7 @@ body._lock {
 br {
   font-size: 0;
   height: 0;
-  display: none;
+  /* display: none; */
   margin: 0;
   padding: 0;
 }
@@ -1277,10 +1297,14 @@ br {
 .content__container:nth-child(even) {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  /* -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse; */
 }
 
+iframe{
+  width: 100%;
+  height:100%;
+}
 .content__wrapper-about {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
