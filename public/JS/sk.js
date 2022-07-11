@@ -17,6 +17,7 @@ let title_contacts = document.getElementById("title_contacts");
 let title_faq = document.getElementById("title_faq");
 let title_news = document.getElementById("title_news");
 let title_reservations = document.getElementById("title_reservations");
+let title_cinema = document.getElementById("title_cinema");
 
 title_clubs.innerHTML = "Studentske kluby<img class=\"dropdown__image\" id=\"clubs__image\" src=\"/images/home__web__page/dropdown__image.png\" alt=\"\">";
 title_council.innerHTML = "Studentska rada<img class=\"dropdown__image\" id=\"council__image\" src=\"/images/home__web__page/dropdown__right.png\" alt=\"\">";
@@ -34,6 +35,7 @@ title_contacts.innerHTML = "Kontakty";
 title_faq.innerHTML = "FAQ";
 title_news.innerHTML = "Noviny";
 title_reservations.innerHTML = "Rezervacie";
+title_cinema.innerHTML = "Kino J13";
 
 function openHome() {
     window.location.assign("/sk/home/");
@@ -80,6 +82,10 @@ function openNews() {
 }
 function openErasmus() {
     window.location.assign("/sk/erasmus/");
+}
+
+function openCinema() {
+    window.location.assign("/sk/cinema/");
 }
 
 var path = window.location.pathname;

@@ -29,6 +29,33 @@ function klubFunction() {
 	document.getElementById("klub__image").classList.toggle("rotateX");
 	document.getElementById("council__image").classList.remove("rotateX");
 }
+function openFirstFunction() {
+	document.getElementById("cont1").style.display = 'block';
+	document.getElementById("cont2").style.display = 'none';
+	document.getElementById("cont3").style.display = 'none';
+	document.getElementById("cont4").style.display = 'none';
+}
+
+function openSecondFunction () {
+	document.getElementById("cont1").style.display = 'none';
+	document.getElementById("cont2").style.display = 'block';
+	document.getElementById("cont3").style.display = 'none';
+	document.getElementById("cont4").style.display = 'none';
+}
+
+function openThirdFunction () {
+	document.getElementById("cont1").style.display = 'none';
+	document.getElementById("cont2").style.display = 'none';
+	document.getElementById("cont3").style.display = 'block';
+	document.getElementById("cont4").style.display = 'none';
+}
+
+function openQuadFunction () {
+	document.getElementById("cont1").style.display = 'none';
+	document.getElementById("cont2").style.display = 'none';
+	document.getElementById("cont3").style.display = 'none';
+	document.getElementById("cont4").style.display = 'block';
+}
 // burger menu
 const iconMenu = document.querySelector('.menu__icon');
 if (iconMenu) {
@@ -67,3 +94,5 @@ window.onclick = function (event) {
 		}
 	}
 }
+
+openFirstFunction();

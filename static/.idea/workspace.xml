@@ -2,12 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="675400cd-570d-4070-909d-8359b34fd3d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../content/en/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/../content/en/home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/sk/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/../content/sk/home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/JS/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/../public/JS/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/JS/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/../public/JS/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../public/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/council/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/council/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/erasmus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/erasmus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/event/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/event/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/faq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/faq/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/payments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/payments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/pcklub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/pcklub/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/police/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/police/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/registration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/registration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/rules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/rules/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/en/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/en/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/council/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/council/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/erasmus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/erasmus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/event/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/event/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/faq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/faq/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/payments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/payments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/pcklub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/pcklub/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/police/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/police/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/registration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/registration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/rules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/rules/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/sk/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/sk/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../public/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -29,13 +76,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +98,7 @@
       <workItem from="1644399575342" duration="1556000" />
       <workItem from="1644781353789" duration="121000" />
       <workItem from="1644781527837" duration="86000" />
+      <workItem from="1657050097929" duration="3241000" />
     </task>
     <servers />
   </component>

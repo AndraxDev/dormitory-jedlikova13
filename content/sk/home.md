@@ -14,9 +14,9 @@ title: Jedlikova 13
 					<div id="first" class="news__body">Первый контейнер</div>
 					<div id="second" class="news__body">Второй контейнер</div>
 					<div id="third" class="news__body">Третий контейнер</div>
-					<div id="quad" class="news__body">Четвёртый контейнер </div>
-
+					<div id="quad" class="news__body">Четвёртый контейнер</div>
 				</div>
+
 				<div class="closed__container">
 					<div id="open_first" onclick="openFirstFunction()" class="closed__news">Открывает первый контейнер</div>
 					<div id="open_second" onclick="openSecondFunction()" class="closed__news">Открывает второй контейнер
@@ -24,8 +24,25 @@ title: Jedlikova 13
 					<div id="open_third" onclick="openThirdFunction()" class="closed__news">Открывает третий контейнер</div>
 					<div id="open_quad" onclick="openQuadFunction()" class="closed__news">Открывает четвёртый контейнер</div>
 				</div>
+
+                <div class = "content__container containers_frame">
+                    <div id = "cont1" class = "container_content">
+                        <p>1</p>
+                    </div>
+                    <div id = "cont2" class = "container_content">
+                        <p>2</p>
+                    </div>
+                    <div id = "cont3" class = "container_content">
+                        <p>3</p>
+                    </div>
+                    <div id = "cont4" class = "container_content">
+                        <p>4</p>
+                    </div>
+                </div>
+
 				<div class="content__container">
-					<div class="contact__heading">Contact</div>
+					<p>Contact</p>
+					<!--<div class="contact__heading">Contact</div>-->
 					<div class="contact__wrapper">
 						<div class="contact__body">
 							<iframe
@@ -45,5 +62,6 @@ title: Jedlikova 13
 				</div>
 			</div>
 		</div>
+<script src="/JS/basic.js"></script>
 <script src = "/JS/sk.js"></script>
 {{< /raw >}}
